@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\lazarus\fpc\3.2.2\bin\i386-win32\fpc.exe" Date="1449426723"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -WG -l -vewnhibq &quot;-FiD:\TEKNIK INFORMATIKA\TI . 21 . A.3\SEMESTER 5\Matkul Pemograman Visual ( Dekstop )\latihan\penjualan-barang\lib\i386-win32&quot; -FuD:\lazarus\lcl\units\i386-win32\win32 -FuD:\lazarus\lcl\units\i386-win32 -FuD:\lazarus\components\freetype\lib\i386-win32 -FuD:\lazarus\components\lazutils\lib\i386-win32 -FuD:\lazarus\packager\units\i386-win32 &quot;-FuD:\TEKNIK INFORMATIKA\TI . 21 . A.3\SEMESTER 5\Matkul Pemograman Visual ( Dekstop )\latihan\penjualan-barang\&quot; &quot;-FUD:\TEKNIK INFORMATIKA\TI . 21 . A.3\SEMESTER 5\Matkul Pemograman Visual ( Dekstop )\latihan\penjualan-barang\lib\i386-win32\&quot; &quot;-FED:\TEKNIK INFORMATIKA\TI . 21 . A.3\SEMESTER 5\Matkul Pemograman Visual ( Dekstop )\latihan\penjualan-barang\&quot; &quot;-oD:\TEKNIK INFORMATIKA\TI . 21 . A.3\SEMESTER 5\Matkul Pemograman Visual ( Dekstop )\latihan\penjualan-barang\project1.exe&quot; -dLCL -dLCLwin32 project1.lpr"/>
+</CONFIG>

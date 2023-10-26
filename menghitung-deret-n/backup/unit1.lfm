@@ -1,0 +1,85 @@
+object Form1: TForm1
+  Left = 1157
+  Height = 470
+  Top = 272
+  Width = 632
+  Caption = 'FAKTORIAL'
+  ClientHeight = 470
+  ClientWidth = 632
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -15
+  Font.Name = 'Dubai Medium'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 33
+    Top = 32
+    Width = 50
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'N'
+    ParentColor = False
+  end
+  object edtDeret: TEdit
+    Left = 119
+    Height = 33
+    Top = 31
+    Width = 192
+    HideSelection = False
+    TabOrder = 0
+  end
+  object btnHitung: TButton
+    Left = 368
+    Height = 33
+    Top = 31
+    Width = 130
+    Caption = 'Hitung'
+    OnClick = btnHitungClick
+    TabOrder = 1
+  end
+  object rgHasil: TGroupBox
+    Left = 32
+    Height = 190
+    Top = 80
+    Width = 279
+    Caption = 'Hasil'
+    ClientHeight = 160
+    ClientWidth = 275
+    TabOrder = 2
+    OnClick = rgHasilClick
+    object Label2: TLabel
+      Left = 14
+      Height = 34
+      Top = 21
+      Width = 73
+      AutoSize = False
+      Caption = 'Faktorial'
+      ParentColor = False
+    end
+    object edtFaktorial: TEdit
+      Left = 118
+      Height = 33
+      Top = 21
+      Width = 139
+      TabOrder = 0
+    end
+    object edtJumlah: TEdit
+      Left = 118
+      Height = 33
+      Top = 80
+      Width = 139
+      TabOrder = 1
+    end
+    object Label3: TLabel
+      Left = 14
+      Height = 33
+      Top = 80
+      Width = 74
+      AutoSize = False
+      Caption = 'Jumlah'
+      ParentColor = False
+    end
+  end
+end

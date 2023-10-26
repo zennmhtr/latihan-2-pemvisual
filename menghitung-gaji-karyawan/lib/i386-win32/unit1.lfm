@@ -1,0 +1,240 @@
+object Form1: TForm1
+  Left = 1042
+  Height = 638
+  Top = 255
+  Width = 729
+  Caption = 'Form1'
+  ClientHeight = 638
+  ClientWidth = 729
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 200
+    Height = 36
+    Top = 8
+    Width = 355
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'PROGRAM MENGHITUNG GAJI KARYAWAN'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Dubai'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 28
+    Top = 85
+    Width = 111
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Nama Pegawai'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Dubai Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 25
+    Top = 144
+    Width = 111
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Jabatan'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Dubai Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 31
+    Top = 194
+    Width = 111
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Gaji Pokok'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Dubai Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtNama: TEdit
+    Left = 186
+    Height = 31
+    Top = 85
+    Width = 222
+    AutoSize = False
+    TabOrder = 0
+  end
+  object edtGapok: TEdit
+    Left = 186
+    Height = 31
+    Top = 194
+    Width = 222
+    AutoSize = False
+    TabOrder = 1
+  end
+  object cbJabatan: TComboBox
+    Left = 186
+    Height = 23
+    Top = 144
+    Width = 222
+    AutoSize = False
+    Color = clScrollBar
+    ItemHeight = 15
+    Items.Strings = (
+      'Direktur'
+      'Manager'
+      'Karyawan'
+    )
+    TabOrder = 2
+  end
+  object rgStatus: TRadioGroup
+    Left = 32
+    Height = 80
+    Top = 256
+    Width = 377
+    Align = alCustom
+    AutoFill = True
+    Caption = 'Status'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 50
+    ClientWidth = 373
+    Color = clMenuBar
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Dubai Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Tetap'
+      'Honorer'
+    )
+    OnClick = rgStatusClick
+    ParentBackground = False
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 31
+    Top = 352
+    Width = 119
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Status Tunjangan'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Dubai Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label5Click
+  end
+  object edtTunjangan: TEdit
+    Left = 186
+    Height = 31
+    Top = 352
+    Width = 222
+    AutoSize = False
+    TabOrder = 4
+  end
+  object btnHitung: TButton
+    Left = 36
+    Height = 33
+    Top = 400
+    Width = 373
+    Caption = 'Total Gaji'
+    Color = clBtnShadow
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Dubai'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = btnHitungClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Label6: TLabel
+    Left = 32
+    Height = 31
+    Top = 456
+    Width = 119
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Gaji Bersih'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Dubai Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label5Click
+  end
+  object edtTotalGaji: TEdit
+    Left = 187
+    Height = 31
+    Top = 456
+    Width = 222
+    AutoSize = False
+    TabOrder = 6
+  end
+  object btnClear: TButton
+    Left = 36
+    Height = 33
+    Top = 520
+    Width = 133
+    Caption = 'Isi Data Lagi'
+    Color = clBtnShadow
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Dubai'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = btnClearClick
+    ParentFont = False
+    TabOrder = 7
+  end
+  object btnClose: TButton
+    Left = 275
+    Height = 33
+    Top = 520
+    Width = 133
+    Caption = 'Close'
+    Color = clBtnShadow
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Dubai'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+end
