@@ -1,8 +1,8 @@
 # Latihan 2 - Pemograman Visual ( Dekstop )
 
-**Nama : _Zaini Muhtarom_** <br/>
-**NIM : 312110294** <br/>
-**Kelas : TI . 21 . A3** <br/>
+**Nama   : _Zaini Muhtarom_** <br/>
+**NIM    : 312110294** <br/>
+**Kelas  : TI . 21 . A3** <br/>
 **Matkul : Pemograman Visual Dekstop** <br/>
 
 ## Result Menghitung Gaji Karyawan
